@@ -1,0 +1,7 @@
+<!--<form {{!action 'createServer' on="submit"}}>-->
+<form>
+    {{input type='text' class='new-server' placeholder='url' value=url}}
+    <button class="btn btn-primary btn-sm" {{action 'createServer'}}>
+        Create
+    </button>
+</form>
